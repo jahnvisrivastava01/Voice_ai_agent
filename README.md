@@ -5,7 +5,7 @@ A full-stack AI voice assistant. Speak, see the live transcript, and hear the an
 ```
 Microphone ──▶ SpeechRecognition (browser) ──▶ text
                                                 │
-                              POST /api/chat (streamed) ──▶ Express ──▶ Mistral AI
+                              POST /api/chat (streamed) ──▶ Express ──▶Gemini
                                                 │
                        SpeechSynthesis (browser) ◀── reply, spoken sentence by sentence
 ```
